@@ -4,8 +4,10 @@ class Main {
   public static void main(String[] args) {
     
     boolean homeWork = true;
+    boolean problemOne = true;
+    boolean problemTwo = true;
 
-    if (homeWork)
+    if (homeWork != true)
     {
       System.out.println("I have completed my homework!");
     }
