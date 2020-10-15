@@ -6,8 +6,8 @@ class Main {
     boolean homeWork = true;
     boolean problemOne = true;
     boolean problemTwo = true;
-
-    if (homeWork != true)
+    Snanner Scan = new Scanner ();
+    if (homeWork && problemOne && problemTwo)
     {
       System.out.println("I have completed my homework!");
     }
