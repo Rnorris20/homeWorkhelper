@@ -1,22 +1,19 @@
 import javax.lang.model.util.ElementScanner6;
-
-import java.until.Scanner;
+import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
     boolean homeWork = true;
+    boolean lawnMowed = true;
 
     Scanner Scan = new Scanner (System.in);
     System.out.println("What was your answer for Problem 1?");
-    int problemOne = scan.nextInt();
+    int problemOne = Scan.nextInt();
 
-    if (problemOne >= 10);
-    {
-      System.out.println("I have completed my homework!");
-    }
-   else (problemOne < 10);
-    {
-      System.out.println("This answer is wrong, Keep working!");
+    if (problemOne >= 10 && lawnMowed) {
+      System.out.println("Nice job, you got this problem correct, now you can play at your friends house");
+    } else if (problemOne > 7) {
+      System.out.println("The answer is wrong, you cannot go to your friends house ");
     }
   }
 }
